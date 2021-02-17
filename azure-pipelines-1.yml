@@ -28,7 +28,7 @@ steps:
   inputs:
       script: |
         git clone https://github.com/chkp-nchao/cloudguard-iac-noncompliant-terraform
-        ./shiftleft iac-assessment -p ./cloudguard-iac-noncompliant-terraform/aws/ -r -64
+        ./cloudguard-iac-noncompliant-terraform/shiftleft iac-assessment -p ./cloudguard-iac-noncompliant-terraform/aws/ -r -64
   displayName: Running Terraform Assessment
 
 - script: |
